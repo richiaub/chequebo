@@ -1,0 +1,218 @@
+body
+{font-family: 'Ubuntu', sans-serif;
+margin: 0}
+.menu-sup li:hover
+{
+	border-top: 4px solid #d0272a;
+	cursor: pointer;
+	background-image: url(../images/opa.png);
+	background-size: cover;
+}
+.header
+{
+	background-color: #273b47;
+	color: white;
+	width: 100%;
+	height: 60px;
+	display:flex;
+	justify-content:space-between;
+	margin:auto
+}
+.logosup
+{
+
+	margin-top: 7px
+}
+.menu-sup
+{
+	
+	margin-right:35px;
+	
+}
+.menu
+{
+	text-decoration: none;
+	color: white;
+}
+.menu-sup li
+{
+	display:inline-flex;
+	text-decoration: none;
+	font-size: 19px;
+	margin-left: 7px;
+	margin-right: 7px;
+	border-left: 2px solid white;
+	padding-left: 5px;
+}
+.menu-sup button
+{
+	border-radius: 16px;
+	border: 1px solid #273b47;
+	font-size: 17px;
+	padding: 2px 6px 2px 6px;
+	color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff2e2b+41,ff5e5b+100 */
+background: rgb(255,0,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,0,0,1) 0%, rgba(255,46,43,1) 41%, rgba(255,94,91,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,0,0,1) 0%,rgba(255,46,43,1) 41%,rgba(255,94,91,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,0,0,1) 0%,rgba(255,46,43,1) 41%,rgba(255,94,91,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ff5e5b',GradientType=1 ); /* IE6-9 */
+
+}
+.menu-sup button:hover
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5e5b+0,ff2e2b+59,ff0000+100 */
+background: rgb(255,94,91); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,94,91,1) 0%, rgba(255,46,43,1) 59%, rgba(255,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,94,91,1) 0%,rgba(255,46,43,1) 59%,rgba(255,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,94,91,1) 0%,rgba(255,46,43,1) 59%,rgba(255,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5b', endColorstr='#ff0000',GradientType=1 ); /* IE6-9 */
+cursor: pointer;
+}
+
+.portada
+{
+	background-color: #efefef;
+}
+.nota-portada
+{
+	background-image: url(../images/interior_002.jpg);
+	background-size: cover;
+	width: 90%;
+	height:450px;
+	margin-top:25px;
+	margin-left: 70px;
+	display:flex;
+	align-items:flex-end;
+
+}
+
+.buscar input[type="text"]
+{
+	color:grey;
+	font-family: 'Ubuntu', sans-serif;
+	margin:10px;
+	border-radius: 16px;
+	height: 25px;
+	padding-left:5px;
+}
+.buscar input[type="submit"]
+{
+	
+	  
+    background-image: url(../images/search.png);
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+     border:0;
+    width:30px;
+    height:30px;
+    border-radius:50%  
+}
+.buscar
+{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	margin-right: 5px;
+
+}
+
+.nota-ppal h1
+{
+	padding: 15px 25px 0px 25px;
+	
+	color: white;
+		font-size:28px;
+margin-top:30px;
+margin-bottom:0px;
+
+}
+.nota-ppal
+{
+	border: 1px solid #273b47;
+	background-color: #273b47;
+	opacity: 0.8;
+	width: 450px;
+	height: 200px;
+	margin: 25px;
+text-align: left;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
+}
+.autor
+{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+}
+.avatar
+{
+border-radius:50%;
+	display: inline-block;
+	margin: 0 0 25px 20px;
+	cursor:pointer;
+
+}
+.nombre, .fecha
+{
+		
+
+	color: white;
+	font-size: 20px;
+	position: relative;
+	bottom:10px;
+	text-decoration: none;
+
+}
+
+.fecha
+{
+	margin-right:20px
+}
+.primerlinea
+{
+	display:flex;
+	justify-content:space-around;
+	margin-top:35px;
+}
+.nota
+{
+	
+	width:25%
+	
+}
+.nota hr
+{
+	position:relative;
+	top:-12px
+}
+.nota footer
+{
+	display: flex;
+	justify-content: space-between;
+}
+.estilo_nota
+{
+	
+	color: #273b47;
+	text-align:left;
+	text-decoration:none;
+	font-size: 20px;
+	line-height: 24px
+}
+.pie
+{
+	text-decoration:none;
+	color: #273b47;
+	
+	
+	font-size: 16px;
+	
+}
+.linea-sup
+{
+	border-top: 4px solid #7dcd40 !important;#273b47
+}
