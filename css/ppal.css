@@ -216,3 +216,58 @@ border-radius:50%;
 {
 	border-top: 4px solid #7dcd40 !important;#273b47
 }
+.primerTexto
+	{
+	color: #1F313C;
+	margin: 75px;
+	padding-bottom: 30px;
+	text-align: right;
+
+	}
+.portada h1
+	{
+		color:#030BAF;
+		text-align: center;
+	}
+.boton
+{
+	background-color:  #1F313C;
+	color: white;
+	border: 0
+	
+}
+.texto
+{
+	margin: auto;
+	width: 600px;
+	margin-top: 155px;
+}
+.hombreok
+{
+	float: left;
+	position: relative;
+	top: -135px;;
+	left: -4px;
+
+}
+.abc
+{
+	border-radius: 8px;
+	border: 1px solid #1F313C;
+	padding: 8px;
+		
+		margin-top: 25px;
+}
+
+.caja-texto
+{
+	margin-left: 350px;
+}
+.abc ul
+{
+list-style: none;}
+
+.portada-juego
+{
+	margin:35px
+}
